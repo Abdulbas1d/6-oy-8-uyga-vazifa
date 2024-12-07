@@ -1,0 +1,40 @@
+.cards {
+    width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardOne {
+    width: 32%;
+    height: 300px;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: rgb(114, 114, 228);
+    line-height: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    span {
+        font-size: 22px;
+        font-weight: 600;
+        width: 38px;
+        height: 32px;
+        padding-top: 3px;
+        border-radius: 18px;
+        background-color: rgb(67, 16, 16);
+        text-align: center;
+        color: #fff;
+    }
+
+    p {
+        font-size: 18px;
+        font-weight: 500;
+    }
+}

@@ -1,0 +1,29 @@
+.datas {
+    margin-top: 15px;
+    width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.dataOne {
+    width: 32%;
+    border-radius: 15px;
+    text-align: center;
+    background-color: rgb(101, 101, 224);
+    padding: 25px;
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        li {
+            list-style: none;
+        }
+    }
+}

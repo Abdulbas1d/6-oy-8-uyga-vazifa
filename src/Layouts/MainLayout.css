@@ -1,0 +1,44 @@
+.header {
+    width: 1440px;
+    background-color: rgb(148, 188, 74);
+}
+
+.header_container {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 150px;
+    align-items: center;
+    justify-content: center;
+
+    img {
+        width: 80px;
+        height: 80px;
+        background: none;
+        border: none;
+        border-radius: 18px;
+    }
+
+    .data {
+        display: flex;
+        gap: 25px;
+        padding-right: 100px;
+        padding-left: 100px;
+
+        .aHref {
+            text-decoration: none;
+            width: 200px;
+            height: 25px;
+            font-size: 20px;
+            font-weight: 600;
+            color: #394E6A;
+        }
+
+        .aHref:hover {
+            border-radius: 12px;
+            text-decoration: underline;
+        }
+    }
+}
